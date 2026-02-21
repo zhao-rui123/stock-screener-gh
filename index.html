@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head><title>月望誰密抗表힋电设回</title></head>
+<head>
+    <meta charset="UTF-8">
+    <title>月望誰密抗表힋电设回</title>
+</head>
 <body>
-<h1>🏉 月望记密拕表힋电设回</h1>
-<p>移动全光：<input type="text" id="code" placeholder="000426"></p>
-<button onclick="analyze()">开叏</button>
-<div id="result"></div>
-<script>
-function analyze() {
-    const code = document.getElementById('code').value;
-    document.getElementById('result').innerHTML = '量图';
-    fetch('https://qt.gtimg.cn/q=' + code)
-        .then(r => r.text())
-        .then(data => { document.getElementById('result').innerHTML = '<pre>' + data + '</pre>'; })
-        .catch(e => { document.getElementById('result').innerHTML = '请选手空间空间' + e.message; });
-}
-</script>
+    <h1>🏉 月望袰密制多作的小于</h1>
+    <p>让成让成让成：<input type="text" id="code" placeholder="000426"></p>
+    <button onclick="analyze()">开叏</button>
+    <div id="result"></div>
+    <script>
+    function analyze() {
+        const code = document.getElementById('code').value;
+        document.getElementById('result').innerHTML = '顿好＞' + code;
+    }
+    </script>
 </body>
 </html>
